@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_035ab98a619fcbe5732110e82fa8af48 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_035ab98a619fcbe5732110e82fa8af48" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_035ab98a619fcbe5732110e82fa8af48 = L.map(
+                "map_035ab98a619fcbe5732110e82fa8af48",
+                {
+                    center: [-23.5505, -46.6333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eff96023325afb0747ccec71a8592ca0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_eff96023325afb0747ccec71a8592ca0.addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var marker_543ffc0a4c5e453aa5df0c1b0673e6f2 = L.marker(
+                [-23.5139, -46.5383],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_602af0f0bd6fe63e00c0ec6e671fb897 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_543ffc0a4c5e453aa5df0c1b0673e6f2.setIcon(icon_602af0f0bd6fe63e00c0ec6e671fb897);
+        
+    
+        var popup_76e31d775ac115456ab925b76b5f85a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bc0582a223a4d8f810fb1dca4b4d9fe = $(`<div id="html_1bc0582a223a4d8f810fb1dca4b4d9fe" style="width: 100.0%; height: 100.0%;">Tiquatira – I (Avenida Governador Carvalho Pinto)</div>`)[0];
+                popup_76e31d775ac115456ab925b76b5f85a7.setContent(html_1bc0582a223a4d8f810fb1dca4b4d9fe);
+            
+        
+
+        marker_543ffc0a4c5e453aa5df0c1b0673e6f2.bindPopup(popup_76e31d775ac115456ab925b76b5f85a7)
+        ;
+
+        
+    
+    
+            var marker_44a4abf2af72b834d1ef2fc1009ef869 = L.marker(
+                [-23.5145, -46.5378],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_4e686a952fee548d3994edff92635cd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_44a4abf2af72b834d1ef2fc1009ef869.setIcon(icon_4e686a952fee548d3994edff92635cd9);
+        
+    
+        var popup_e07782a33ea056fd7c152db18e610e8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8021e9e72c27d5f979e2a8b8ab9d1fb2 = $(`<div id="html_8021e9e72c27d5f979e2a8b8ab9d1fb2" style="width: 100.0%; height: 100.0%;">Tiquatira – II (Avenidas Calim Eid/ Dom Hélder Câmara)</div>`)[0];
+                popup_e07782a33ea056fd7c152db18e610e8f.setContent(html_8021e9e72c27d5f979e2a8b8ab9d1fb2);
+            
+        
+
+        marker_44a4abf2af72b834d1ef2fc1009ef869.bindPopup(popup_e07782a33ea056fd7c152db18e610e8f)
+        ;
+
+        
+    
+    
+            var marker_8f94527028308c94f7c09375244825cd = L.marker(
+                [-23.5859, -46.6358],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_8cd88465d85bcf4493bdd4f2d34aa0f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f94527028308c94f7c09375244825cd.setIcon(icon_8cd88465d85bcf4493bdd4f2d34aa0f1);
+        
+    
+        var popup_f97fc1cef173f5259e2d45c808eddfae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1248b7afe954feb515330318dee8af75 = $(`<div id="html_1248b7afe954feb515330318dee8af75" style="width: 100.0%; height: 100.0%;">Rua Vergueiro</div>`)[0];
+                popup_f97fc1cef173f5259e2d45c808eddfae.setContent(html_1248b7afe954feb515330318dee8af75);
+            
+        
+
+        marker_8f94527028308c94f7c09375244825cd.bindPopup(popup_f97fc1cef173f5259e2d45c808eddfae)
+        ;
+
+        
+    
+    
+            var marker_8aca173718fc6b8b5fcccab2fbeae6f9 = L.marker(
+                [-23.4788, -46.6596],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_4ea551b09fdb297f2feafe86f4894102 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8aca173718fc6b8b5fcccab2fbeae6f9.setIcon(icon_4ea551b09fdb297f2feafe86f4894102);
+        
+    
+        var popup_bea028f60b3c3e85de3aa0f48c787e19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaf1e29fb53099c0d8679dbca987c753 = $(`<div id="html_eaf1e29fb53099c0d8679dbca987c753" style="width: 100.0%; height: 100.0%;">Avenida Inajar de Souza</div>`)[0];
+                popup_bea028f60b3c3e85de3aa0f48c787e19.setContent(html_eaf1e29fb53099c0d8679dbca987c753);
+            
+        
+
+        marker_8aca173718fc6b8b5fcccab2fbeae6f9.bindPopup(popup_bea028f60b3c3e85de3aa0f48c787e19)
+        ;
+
+        
+    
+    
+            var marker_b897af2c8797c5dcfe65a1208b2dd2e1 = L.marker(
+                [-23.7025, -46.6334],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_16d064658f13966ea4ef8c856d9b6afb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b897af2c8797c5dcfe65a1208b2dd2e1.setIcon(icon_16d064658f13966ea4ef8c856d9b6afb);
+        
+    
+        var popup_68eceb6753b98535d93eb64f538a0361 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a123c4940b281a9a49aac46d8feeb7b = $(`<div id="html_4a123c4940b281a9a49aac46d8feeb7b" style="width: 100.0%; height: 100.0%;">Av. Senador Teotônio Vilela</div>`)[0];
+                popup_68eceb6753b98535d93eb64f538a0361.setContent(html_4a123c4940b281a9a49aac46d8feeb7b);
+            
+        
+
+        marker_b897af2c8797c5dcfe65a1208b2dd2e1.bindPopup(popup_68eceb6753b98535d93eb64f538a0361)
+        ;
+
+        
+    
+    
+            var marker_3ea25a044cd09ee7e2d72a10fb9e11be = L.marker(
+                [-23.576, -46.6622],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_756cc731daa4ad7be78193bb89750f01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3ea25a044cd09ee7e2d72a10fb9e11be.setIcon(icon_756cc731daa4ad7be78193bb89750f01);
+        
+    
+        var popup_710b9d147d5667a6c6ce7f6ef4291f98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91822400da7e7f8a623e9d983d9f1fec = $(`<div id="html_91822400da7e7f8a623e9d983d9f1fec" style="width: 100.0%; height: 100.0%;">Eixo Norte/Sul sentido Santana (Avenidas Moreira Guimarães, Rubem Berta e 23 de Maio)</div>`)[0];
+                popup_710b9d147d5667a6c6ce7f6ef4291f98.setContent(html_91822400da7e7f8a623e9d983d9f1fec);
+            
+        
+
+        marker_3ea25a044cd09ee7e2d72a10fb9e11be.bindPopup(popup_710b9d147d5667a6c6ce7f6ef4291f98)
+        ;
+
+        
+    
+    
+            var marker_37774d6d7247324471647a5853266a37 = L.marker(
+                [-23.5691, -46.7377],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_71240e45801bbdd18d368def61153e82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37774d6d7247324471647a5853266a37.setIcon(icon_71240e45801bbdd18d368def61153e82);
+        
+    
+        var popup_c93ea0cbce6faff92d6f2e1df35ae8eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_003095b1c0cef233edf057bd03198de0 = $(`<div id="html_003095b1c0cef233edf057bd03198de0" style="width: 100.0%; height: 100.0%;">Av. Escola Politécnica</div>`)[0];
+                popup_c93ea0cbce6faff92d6f2e1df35ae8eb.setContent(html_003095b1c0cef233edf057bd03198de0);
+            
+        
+
+        marker_37774d6d7247324471647a5853266a37.bindPopup(popup_c93ea0cbce6faff92d6f2e1df35ae8eb)
+        ;
+
+        
+    
+    
+            var marker_00578b5f7845ffb5c8f67a279b94532c = L.marker(
+                [-23.6018, -46.6191],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_070bb38ec27ae5902e95ecb97afe44ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00578b5f7845ffb5c8f67a279b94532c.setIcon(icon_070bb38ec27ae5902e95ecb97afe44ea);
+        
+    
+        var popup_7d75b333854e9268e8705fef555d3c03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3919a0c3d1382d25c6297c3efeafdae = $(`<div id="html_c3919a0c3d1382d25c6297c3efeafdae" style="width: 100.0%; height: 100.0%;">Av. Dr. Ricardo Jafet</div>`)[0];
+                popup_7d75b333854e9268e8705fef555d3c03.setContent(html_c3919a0c3d1382d25c6297c3efeafdae);
+            
+        
+
+        marker_00578b5f7845ffb5c8f67a279b94532c.bindPopup(popup_7d75b333854e9268e8705fef555d3c03)
+        ;
+
+        
+    
+    
+            var marker_85c2959421c13ab3095e2e8afbc4860d = L.marker(
+                [-23.6238, -46.6286],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_e9b318ec2018c1721a33239e50cb7afe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85c2959421c13ab3095e2e8afbc4860d.setIcon(icon_e9b318ec2018c1721a33239e50cb7afe);
+        
+    
+        var popup_1402e9c89f95701663459dd059496524 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29c014ede44b3b6f256a3935faabbb52 = $(`<div id="html_29c014ede44b3b6f256a3935faabbb52" style="width: 100.0%; height: 100.0%;">Av. Prof. Abraão de Morais</div>`)[0];
+                popup_1402e9c89f95701663459dd059496524.setContent(html_29c014ede44b3b6f256a3935faabbb52);
+            
+        
+
+        marker_85c2959421c13ab3095e2e8afbc4860d.bindPopup(popup_1402e9c89f95701663459dd059496524)
+        ;
+
+        
+    
+    
+            var marker_70ba386bfc3d7645161ff7dd241873e0 = L.marker(
+                [-23.5659, -46.7165],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_2efbc96442bbf7ff284734381fa20e43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70ba386bfc3d7645161ff7dd241873e0.setIcon(icon_2efbc96442bbf7ff284734381fa20e43);
+        
+    
+        var popup_4ec111e9de010c068843c8dacf45051a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c41215dfe433f38a97a174d891a98b2 = $(`<div id="html_8c41215dfe433f38a97a174d891a98b2" style="width: 100.0%; height: 100.0%;">Rua Sapetuba</div>`)[0];
+                popup_4ec111e9de010c068843c8dacf45051a.setContent(html_8c41215dfe433f38a97a174d891a98b2);
+            
+        
+
+        marker_70ba386bfc3d7645161ff7dd241873e0.bindPopup(popup_4ec111e9de010c068843c8dacf45051a)
+        ;
+
+        
+    
+    
+            var marker_7f33abaca6652cdc64d109682b3ef5da = L.marker(
+                [-23.6262, -46.6756],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_902aa2189bc69c181d2cdd7860fd2a64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f33abaca6652cdc64d109682b3ef5da.setIcon(icon_902aa2189bc69c181d2cdd7860fd2a64);
+        
+    
+        var popup_f5122bafc423d0a2ba0ab96ba8808dc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fdf6f67bbfed4c01cc090dc5778f42a = $(`<div id="html_5fdf6f67bbfed4c01cc090dc5778f42a" style="width: 100.0%; height: 100.0%;">Av. Jornalista Roberto Marinho</div>`)[0];
+                popup_f5122bafc423d0a2ba0ab96ba8808dc7.setContent(html_5fdf6f67bbfed4c01cc090dc5778f42a);
+            
+        
+
+        marker_7f33abaca6652cdc64d109682b3ef5da.bindPopup(popup_f5122bafc423d0a2ba0ab96ba8808dc7)
+        ;
+
+        
+    
+    
+            var marker_b37a11399e5f71666f035af93145b615 = L.marker(
+                [-23.6476, -46.6453],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_06a2552a90f278d76d9465d0e006fc26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b37a11399e5f71666f035af93145b615.setIcon(icon_06a2552a90f278d76d9465d0e006fc26);
+        
+    
+        var popup_5445e58e8f6e2dcfba7ea4f86d06710d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14fd68a722ff2a0b052b5fc42410a8e6 = $(`<div id="html_14fd68a722ff2a0b052b5fc42410a8e6" style="width: 100.0%; height: 100.0%;">Av. Eng. Armando de Arruda Pereira</div>`)[0];
+                popup_5445e58e8f6e2dcfba7ea4f86d06710d.setContent(html_14fd68a722ff2a0b052b5fc42410a8e6);
+            
+        
+
+        marker_b37a11399e5f71666f035af93145b615.bindPopup(popup_5445e58e8f6e2dcfba7ea4f86d06710d)
+        ;
+
+        
+    
+    
+            var marker_8c4c02d9483c3cefea7a6b066cd0591d = L.marker(
+                [-23.6521, -46.7461],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_684394f59c6ff27899b625dc29a7a1da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c4c02d9483c3cefea7a6b066cd0591d.setIcon(icon_684394f59c6ff27899b625dc29a7a1da);
+        
+    
+        var popup_88c79207d25878b2fdec1ae1947dfcc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d5dca3a64ed4b458ef76780c8657eed = $(`<div id="html_8d5dca3a64ed4b458ef76780c8657eed" style="width: 100.0%; height: 100.0%;">Estrada de Itapecerica</div>`)[0];
+                popup_88c79207d25878b2fdec1ae1947dfcc3.setContent(html_8d5dca3a64ed4b458ef76780c8657eed);
+            
+        
+
+        marker_8c4c02d9483c3cefea7a6b066cd0591d.bindPopup(popup_88c79207d25878b2fdec1ae1947dfcc3)
+        ;
+
+        
+    
+    
+            var marker_4d61f2d691da9632a6ade75e05110c57 = L.marker(
+                [-23.6202, -46.7702],
+                {}
+            ).addTo(map_035ab98a619fcbe5732110e82fa8af48);
+        
+    
+            var icon_61998291afcd7b5bfe933237b4e02953 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4d61f2d691da9632a6ade75e05110c57.setIcon(icon_61998291afcd7b5bfe933237b4e02953);
+        
+    
+        var popup_fea07a67d2cd4de81bc11cae170806a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c73b3d95fe2584a6b883332ddf26b961 = $(`<div id="html_c73b3d95fe2584a6b883332ddf26b961" style="width: 100.0%; height: 100.0%;">Av. Pirajussara C/B</div>`)[0];
+                popup_fea07a67d2cd4de81bc11cae170806a3.setContent(html_c73b3d95fe2584a6b883332ddf26b961);
+            
+        
+
+        marker_4d61f2d691da9632a6ade75e05110c57.bindPopup(popup_fea07a67d2cd4de81bc11cae170806a3)
+        ;
+
+        
+    
+</script>
+</html>
